@@ -1,0 +1,174 @@
+*{
+    box-sizing: border-box;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+[class*="col-"]{
+    float: left;
+    padding: 10px;
+}
+
+.row::after{
+    content: '';
+    clear: both;
+    display: table;
+}
+
+.col-8{
+    background-color: #ebebeb;
+}
+
+.first{
+    padding: 20px 50px;
+}
+.mono{
+    background-color: black;
+}
+
+h1{
+    font-family: 'Podkova', serif;
+}
+
+.araf{
+    text-transform: uppercase;
+    font-size: 60px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+section{
+    padding: 0 200px;
+}
+
+.habib{
+    text-transform: uppercase;
+    font-size: 60px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.btn{
+    background-color: #ffcc00;
+    border: none;
+    padding: 10px 50px;
+    font-family: 'Podkova', serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.second h1{
+    font-size: 30px;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+.second{
+    padding-top: 30px;
+    padding-left: 40px;
+    width: 90%;
+}
+
+
+p{
+    color: gray;
+    font-size: 20px;
+    font-family: 'Podkova', serif;
+}
+
+h4{
+    font-family: 'Rubik', sans serif;
+    text-transform: uppercase;
+}
+
+#sh4{
+    color: gray;
+    margin-top: -15px;
+    font-weight: 400;    
+}
+
+#ssh4{
+    color: gray;
+    font-family: 'Rubik', sans serif;
+    font-weight: 400;
+    font-size: 15px;
+    text-transform: none;
+}
+
+.btn2{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-family: 'Podkova', serif;
+    font-size: 20px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    margin-top: 20px;
+}
+
+.immg{
+    width: 85%;
+}
+
+.imagge{
+    background: #ffcc00;
+    margin-top: 40px;
+    padding: 40px 20px;
+    transform:translateX(-80px);
+}
+
+.hbb{
+    font-weight: 400;
+    text-transform: none;
+}
+
+#exp2{
+    color: white;
+    font-size: 35px;
+}
+
+
+/* Container for skill bars */
+.container {
+    width: 100%; /* Full width */
+    background-color: #ddd; /* Grey background */
+    border-radius: 5px;
+  }
+  
+  .skills {
+    text-align: right; /* Right-align text */
+    padding-top: 1px; /* Add top padding */
+    padding-bottom: 1px; /* Add bottom padding */
+    color: black; /* White text color */
+    border-radius: 5px;
+  }
+  
+  .html {width: 90%; background-color: #04AA6D; padding-right: 10px; font-family: 'Podkova', serif;} /* Green */
+  .css {width: 80%; background-color: #2196F3; padding-right: 10px; font-family: 'Podkova', serif;} /* Blue */
+  .js {width: 30%; background-color: #f44336; padding-right: 10px; font-family: 'Podkova', serif;} /* Red */
+
+  .hbb2{
+    font-weight: 400;
+    text-transform: none;
+    color: white;
+    text-align: center;
+    padding-bottom: 105px;
+}
+
+footer{
+    text-align: center;
+}
